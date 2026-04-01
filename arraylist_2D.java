@@ -15,7 +15,7 @@ public class arraylist_2D {
 
         for (int i = 0; i < list.size(); i++) {
             for (int j = 0; j < list.get(i).size(); j++) {
-                System.out.print(list.get(i).get(j) + " ");
+                System.out.print(list.get(j).get(i) + " ");
             }
             System.out.println();
         }
